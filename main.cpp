@@ -1,7 +1,11 @@
 #include <iostream>
-extern int fork1();
+#include <zconf.h>
+#include "hello.h"
+
+//extern int affinity1();
 int main() {
-    fork1();
+//    affinity1();
 //    std::cout << "Hello, World!" << std::endl;
+    hello("everyone");
     return 0;
 }

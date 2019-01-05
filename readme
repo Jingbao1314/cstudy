@@ -1,0 +1,3 @@
+g++ -c hello.cpp              //生成hello.o
+ar -crv libmyhello.a hello.o  //生成静态连接库
+gcc main.c libmyhello.a -o hello //生成hello可执行程序   //https://www.cnblogs.com/liboBlog/p/6130161.html
